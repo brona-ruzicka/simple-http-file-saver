@@ -1,0 +1,24 @@
+{
+  "name": "simple-http-file-saver",
+  "version": "1.0.0",
+  "description": "A simple program running an HTTP server on localhost. It saves any POST request body into a file, whose location (inside a specified output directory) is determined by the request pathname.",
+  "homepage": "https://github.com/brona-ruzicka/simple-http-file-saver#readme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "simple-http-file-saver": "index.js"
+  },
+  "author": "Broňa Růžička <brona.ruzicka@gmail.com>",
+  "license": "ISC",
+  "repository": "github:brona-ruzicka/simple-http-file-saver",
+  "bugs": {
+    "url": "https://github.com/brona-ruzicka/simple-http-file-saver/issues",
+    "email": "brona.ruzicka+simple-http-file-saver@gmail.com"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "express": "^4.18.2"
+  }
+}

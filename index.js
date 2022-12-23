@@ -65,7 +65,7 @@ app.post("*", async (request, response) => {
         await fs.promises.mkdir(directoryPath, { recursive: true });
         await fs.promises.writeFile(fullPath, request.body);
 
-        console.log(`${request.body.byteLength} b`.padStart(10), `|`, requestPath);
+        console.log(`${request.body.byteLength} B`.padStart(10), `|`, requestPath);
 
         response.sendStatus(204);
 

@@ -47,7 +47,7 @@ $ npx simple-http-file-saver --directory /home/example.user/some/directory
 
 ### Help
 
-This utility includes a help option.
+This utility has a help option.
 
 ```console
 $ npx simple-http-file-saver -h
@@ -60,7 +60,7 @@ $ npx simple-http-file-saver --help
 
 ## Example
 
-The console input would look like this.
+The example console input is below
 
 ```bash
 $ cd /home/example.user/
@@ -88,7 +88,7 @@ Content-Length: 15
 text=Not_a_json
 ```
 
-the webserver will create all the necesarry directories and the following file
+the webserver will create all the necesarry directories and this file
 
 ```
 /home/example.user/example/a/specific/file.json

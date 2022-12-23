@@ -2,7 +2,7 @@
 
 A simple program running an HTTP server on localhost. It saves any POST request body into a file, whose location (inside a specified output directory) is determined by the request pathname.
 
-Note: this package is designed as a utility.
+Note: this package is intended as a utility.
 
 
 
@@ -70,7 +70,7 @@ Starting Simple HTTP File Saver:
 Listening on 'http://localhost:8000'.
 Saving to directory '/home/example.user/example'.
 
-Intiating webserver.
+Initiating webserver.
 Webserver running.
 ```
 

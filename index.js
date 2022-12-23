@@ -7,7 +7,7 @@ const path = require("path");
 
 const express = require("express");
 const bodyParser = require("body-parser");
-
+const cors = require("cors");
 
 
 
@@ -53,6 +53,7 @@ console.log(`Initiating webserver.`);
 const app = express();
 
 app.use(bodyParser.raw({ type: "*/*" }));
+app.use(cors())
 
 app.post("*", async (request, response) => {
     

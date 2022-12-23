@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple program running an HTTP server on localhost. It saves any POST request body into a file, whose location (inside a specified output directory) is determined by the request pathname.",
   "homepage": "https://github.com/brona-ruzicka/simple-http-file-saver#readme",
+  "keywords": ["http", "express", "npx", "utility"],
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

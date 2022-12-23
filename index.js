@@ -47,7 +47,7 @@ console.log(``);
 
 
 
-console.log(`Intiating webserver.`);
+console.log(`Initiating webserver.`);
 
 
 const app = express();
